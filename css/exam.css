@@ -1,0 +1,21 @@
+body{
+    background-color: #3aada9;
+    font-family: Arial;
+}
+.trangnhat{
+    background-color: #702c91;
+    color:white;
+    margin-top: 45px;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: large;
+}
+form{
+    background-color: #fafafa;
+    width: 600px;
+
+}
+i{
+    background-color: #702c91;
+}
