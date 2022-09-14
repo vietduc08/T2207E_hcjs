@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+  <link rel="stylesheet" href="css/formcss.css"/>
+</head>
+<body>
+  <form method="get" action="#">
+      <label> Full Name </label>
+      <input type="text" name="fullname" placeholder="Full name..."/>
+      <br/>
+
+    <label> Email </label>
+    <input type="email" name="your email" placeholder="your email..." required/>
+    <br/>
+
+    <label> Telephone </label>
+    <input type="tel" name="phone" placeholder="phone number..."/>
+    <br/>
+
+    <label> Password </label>
+    <input type="password" name="password" placeholder="password..."/>
+    <br/>
+
+    <label> Age </label>
+    <input type="number" min="1" max="100" name="Age" placeholder="Age..."/>
+    <br/>
+
+    <label> Birthday </label>
+    <input type="date" name="birthday" placeholder="Birthday..."/>
+    <br/>
+
+    <label> My color </label>
+    <input type="color" name="my color" placeholder="My color..."/>
+    <br/>
+
+    <label> Gender </label>
+    <input type="radio" name="gender" value="male"/> Nam
+    <input type="radio" name="gender" value="female"/> Nu
+    <input type="radio" name="gender" value="other"/> Khac
+    <br/>
+
+    <label> <input type="checkbox" name="confirm" value="yes"/> Toi da doc va dong y</label>
+    <br/>
+    <label> Tieu su ban than </label>
+    <textarea name="Description" rows="10" cols="50"></textarea>
+    <br/>
+
+    <label>Tinh/Thanh Pho</label>
+    <select name="city">
+      <option value="Ha Noi"> Ha Noi </option>
+      <option value="TPHCM"> TPHCM </option>
+      <option value="DaNang"> Da Nang </option>
+      <option value="HaTinh"> Ha Tinh </option>
+
+    </select>
+
+    <button type="button">Button</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+
+
+  </form>
+
+</body>
+</html>
